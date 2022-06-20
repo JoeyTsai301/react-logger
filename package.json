@@ -1,24 +1,27 @@
 {
-  "name": "raect-logger-demo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "joey-react-logger",
+  "version": "0.1.4",
+  "description": "react log function",
+  "main":"dist/index.js",
+  "files": ["dist/**/*"],
+  "keywords": ["react","logger"],
+  "author": "joeytsai",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "tsc"
   },
   "dependencies": {
-    "next": "12.1.6",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "debug": "^4.3.4",
+    "setimmediate": "^1.0.5",
+    "split": "^1.0.1",
+    "vconsole": "^3.14.6",
+    "winston": "^3.7.2"
   },
   "devDependencies": {
-    "@types/node": "18.0.0",
-    "@types/react": "18.0.12",
-    "@types/react-dom": "18.0.5",
+    "@types/debug": "^4.1.7",
+    "@types/split": "^1.0.1",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
-    "typescript": "4.7.3"
+    "typescript": "^4.7.3"
   }
 }
