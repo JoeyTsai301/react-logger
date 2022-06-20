@@ -7,6 +7,11 @@
   "keywords": ["react","logger"],
   "author": "joeytsai",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyTsai301/react-logger"
+  },
+  "homepage": "https://github.com/JoeyTsai301/react-logger#readme",
   "scripts": {
     "build": "tsc"
   },
